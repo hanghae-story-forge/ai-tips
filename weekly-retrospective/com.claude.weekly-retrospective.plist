@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.claude.weekly-retrospective</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <!-- Change to your path -->
+        <string>/Users/username/.claude/scripts/weekly-retrospective.sh</string>
+    </array>
+
+    <!-- Every Friday at 6 PM -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Weekday</key>
+        <integer>5</integer>
+        <key>Hour</key>
+        <integer>18</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+        <key>CLAUDE_CODE_OAUTH_TOKEN</key>
+        <string>{INPUT_CLAUDE_CODE_OAUTH_TOKEN}</string>
+        <key>HOME</key>
+        <string>/Users/username</string>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/username/.claude/retrospectives/launchd.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/username/.claude/retrospectives/launchd.log</string>
+</dict>
+</plist>
