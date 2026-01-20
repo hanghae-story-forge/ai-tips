@@ -19,7 +19,7 @@ AI 도구들을 활용하면서 쌓은 팁과 스크립트를 정리하고 공�
 - [weekly-retrospective](./scripts/weekly-retrospective/): Claude Code 사용 패턴을 분석해서 주간 회고를 자동으로 생성
 
 ### Skills
-- *Coming soon*
+- [broken-link-checker](./skills/broken-link-checker/): 마크다운 문서의 깨진 링크를 자동으로 찾아주는 스킬
 
 ### Commands
 - *Coming soon*
