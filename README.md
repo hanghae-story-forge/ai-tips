@@ -20,6 +20,7 @@ AI 도구들을 활용하면서 쌓은 팁과 스크립트를 정리하고 공�
 
 ### Skills
 - [broken-link-checker](./skills/broken-link-checker/): 마크다운 문서의 깨진 링크를 자동으로 찾아주는 스킬
+- [list-docs](./skills/list-docs/): 프로젝트의 마크다운 문서 목록을 TOON 포맷으로 출력하는 스킬
 
 ### Commands
 - *Coming soon*
